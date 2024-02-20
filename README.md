@@ -11,11 +11,10 @@ This command-line tool generates QR codes from user-provided URLs. It utilizes t
 3. Install dependencies by running:
 
 ```bash
-npm install
-
 import inquirer from "inquirer";
 import qr from "qr-image";
 import fs from "fs";
+...
 
 1. Run the command.
 2. Type in the URL when prompted.
@@ -24,7 +23,8 @@ import fs from "fs";
 ```
 
 ```bash
-
+cd /path/to/your/project
+npm install inquirer qr-image fs
 node index.mjs
 
 ```
