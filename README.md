@@ -24,7 +24,9 @@ import fs from "fs";
 
 ```bash
 cd /path/to/your/project
+
 npm install inquirer qr-image fs
+
 node index.mjs
 
 ```
