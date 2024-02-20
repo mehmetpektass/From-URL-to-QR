@@ -1,16 +1,29 @@
-# From-URL-to-QR
-Creates a QR code, according to the link provided.
+# QR Code Generator
 
-*This command-line tool simplifies generating QR codes from URLs. It prompts users for a URL, then creates a corresponding QR code image and saves the URL for reference. It's ideal for quickly creating QR codes for sharing links or information.
+## Description
 
-*INSTRUCTION:
-Install Node.js if not already installed.
-Clone or download the repository.
-Navigate to the project directory in your terminal.
-Run npm install to install dependencies.
-Run node index.js to start the program.
-Follow the prompts to input your URL and generate the QR code.
+This command-line tool generates QR codes from user-provided URLs. It utilizes the inquirer library for user input, qr-image for QR code generation, and fs for file system operations.
 
-*CONTRIBUTING:
-Contributions are welcome. Fork the repository, make your changes, and submit a pull request.
+## Installation
 
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running:
+
+```bash
+import inquirer from "inquirer";
+import qr from "qr-image";
+import fs from "fs";
+
+1. Run the command:
+2. Type in the URL when prompted.
+3. The generated QR code image will be saved in the project directory.
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
